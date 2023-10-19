@@ -122,7 +122,6 @@ tl4.to(circleone, {clipPath: 'circle(96% at 50% 75%)', webkitClipPath: 'circle(9
 tl4.to(circlefour, {clipPath: 'circle(2rem at 50% 75%)', webkitClipPath: 'circle(2rem at 50% 75%)', duration:0});
 
 //timeline 5
-tl5.to(circlefive, { display: 'block', duration:0});
 tl5.to(circlesix, {clipPath: 'circle(114% at 70% 75%)', webkitClipPath: 'circle(114% at 70% 75%)', duration:1, ease: Power1.easeInOut});
 tl5.to(circlefive, {clipPath: 'circle(2rem at 85% 82%)', webkitClipPath: 'circle(2rem at 85% 82%)', duration:0});
 
@@ -148,7 +147,7 @@ plane3.addEventListener('click', () => {
 })
  //trigger4
 plane4.addEventListener('click', () => {
-    current_plane = 1;
+    current_plane = 5;
 	tl4.restart();
 })
 
@@ -156,6 +155,30 @@ plane4.addEventListener('click', () => {
 planefive.addEventListener('click', () => {
     current_plane = 6;
 	tl5.restart()
+})
+
+//trigger6
+planesix.addEventListener('click', () => {
+    current_plane = 7;
+	tl6.restart()
+})
+
+//trigger7
+planeseven.addEventListener('click', () => {
+    current_plane = 8;
+	tl7.restart()
+})
+
+//trigger8
+planeeight.addEventListener('click', () => {
+    current_plane = 9;
+	tl8.restart()
+})
+
+//trigger9
+planenine.addEventListener('click', () => {
+    current_plane = 1;
+	tl9.restart()
 })
 
 //z-index
