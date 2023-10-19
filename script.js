@@ -49,7 +49,6 @@ tl4.to(circleone, {clipPath: 'circle(114% at 70% 75%)', webkitClipPath: 'circle(
 tl4.to(circlefour, {clipPath: 'circle(2rem at 85% 82%)', webkitClipPath: 'circle(2rem at 85% 82%)', duration:0});
 
 //timeline 5
-tl5.to(circlefive, { display: 'block', duration:0});
 tl5.to(circlesix, {clipPath: 'circle(114% at 70% 75%)', webkitClipPath: 'circle(114% at 70% 75%)', duration:1, ease: Power1.easeInOut});
 tl5.to(circlefive, {clipPath: 'circle(2rem at 85% 82%)', webkitClipPath: 'circle(2rem at 85% 82%)', duration:0});
 
