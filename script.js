@@ -247,6 +247,6 @@ document.addEventListener('DOMContentLoaded', () => {
         current_plane = 1;
         $(".plane-nine").click()
     }
- } , 6000 )
+ } , 7000 )
 });
 
